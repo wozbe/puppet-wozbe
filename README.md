@@ -8,4 +8,5 @@ This repository is not stable.
 
 ## Dependencies
 
-The `symfony2` profile require the **puppetlabs-apache** module.
+* **puppetlabs-apt** module.
+* The `symfony2` profile require the **puppetlabs-apache** module.
