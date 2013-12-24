@@ -1,4 +1,8 @@
 class wozbe::profile::common {
+    class { 'apt':
+        always_apt_update => true,
+    }
+
     include wozbe::git
 
     # Sudo
