@@ -20,10 +20,10 @@ class wozbe::profile::symfony2 (
 
     apache::vhost { 'project.dev':
         default_vhost => true,
-        docroot       => '/vagrant/web',
+        docroot       => '/home/vagrant/web',
         directories   => [
             {
-                path           => '/vagrant/web',
+                path           => '/home/vagrant/web',
                 allow_override => ['All'],
                 options        => ['-Indexes'],
             }
